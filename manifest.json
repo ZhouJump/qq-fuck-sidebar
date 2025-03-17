@@ -6,6 +6,14 @@
     "description": "so fuck you sidebar!",
     "version": "0.1.0",
     "thumb": "./res/thumb.svg",
+    "repository": {
+        "repo": "ZhouJump/qq-fuck-sidebar",
+        "branch": "master",
+        "release": {
+            "tag": "0.1.0",
+            "file": "fuck_sidebar.zip"
+        }
+    },
     "authors": [{
         "name": "zhoujump",
         "link": "https://github.com/zhoujump"
