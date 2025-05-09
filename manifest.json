@@ -4,13 +4,13 @@
     "name": "侧栏编辑",
     "slug": "fuck_sidebar",
     "description": "so fuck you sidebar!",
-    "version": "0.1.0",
+    "version": "0.1.2",
     "thumb": "./res/thumb.svg",
     "repository": {
         "repo": "ZhouJump/qq-fuck-sidebar",
         "branch": "master",
         "release": {
-            "tag": "0.1.0",
+            "tag": "0.1.2",
             "file": "fuck_sidebar.zip"
         }
     },
@@ -18,7 +18,7 @@
         "name": "zhoujump",
         "link": "https://github.com/zhoujump"
     }],
-    "platform": ["win32"],
+    "platform": ["win32","darwin"],
     "injects": {
         "renderer": "./src/renderer.js",
         "main": "./src/main.js",

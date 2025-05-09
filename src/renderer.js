@@ -17,6 +17,9 @@ function startFuck(){
         observeElement('.sidebar__nav .nav-item[aria-label="空间"]', function () {
             document.querySelector('.sidebar__nav .nav-item[aria-label="空间"]').setAttribute('style','display:none')
         });
+        observeElement('.sidebar__nav .nav-item:nth-child(3)', function () {
+            document.querySelector('.sidebar__nav .nav-item:nth-child(3)').setAttribute('style','display:none')
+        });
     }
     if(config.fuckQQ频道){
         observeElement('.sidebar__nav .nav-item[aria-label="频道"]', function () {
